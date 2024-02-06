@@ -13,22 +13,34 @@ export default function Home() {
     <div className="flex flex-col items-center bg-gray-950 overflow-hidden">
       <Navbar />
       <div className="flex flex-col items-center justify-center w-1080 h-screen text-white font-black text-9xl">
-        <h1 className="text-left w-full">CRYPTO</h1>
-        <h2>WEB-3</h2>
-        <h2 className="text-right w-full italic ">AGENCY</h2>
+        <div className="w-1080 h-screen flex flex-col items-left justify-center absolute">
+          <div className="rounded-full w-600 h-96 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur-3xl z-0 opacity-75 rotate-45"></div>
+        </div>
+
+        <h1 className="text-left w-full z-10">CRYPTO</h1>
+        <h2 className="z-10">WEB-3</h2>
+        <h2 className="z-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block bg-clip-text text-right text-transparent italic w-full px-6">
+          AGENCY
+        </h2>
       </div>
 
       <div className="flex flex-col items-center justify-center w-lvw h-32 ">
-        <div className="flex flex-col items-center justify-center w-lvw h-12 bg-transparent rotate-2 border-2"></div>
+        <div className="flex flex-col items-center justify-center w-lvw h-12 bg-transparent rotate-2 border-2">
+          <h2 className="text-white">
+            BLOCKCHAIN NETWORK SECURED | BLOCKCHAIN NETWORK SECURED | BLOCKCHAIN
+            NETWORK SECURED | BLOCKCHAIN NETWORK SECURED | BLOCKCHAIN NETWORK
+            SECURED | BLOCKCHAIN NETWORK SECURED |{" "}
+          </h2>
+        </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center w-1080 h-screen gap-10 text-white">
-        <h2 className="left w-1080 font-extrabold text-7xl">
+      <div className="flex flex-col items-left justify-center w-1080 h-screen gap-10 text-white">
+        <h2 className="left w-1080 font-medium text-5xl">
           Our featured services
         </h2>
 
         <div className="flex flex-row justify-between w-1080">
-          <div className="flex flex-col h-96 w-72 bg-indigo-500 shadow-lg shadow-indigo-500/80 p-5 justify-between text-5xl font-extrabold rounded-3xl">
+          <div className="flex flex-col h-96 w-72 bg-indigo-500 p-7 justify-between text-5xl font-medium rounded-3xl">
             <h3 className="">01</h3>
             <h3 className="">
               WEB3 <br />
@@ -39,10 +51,10 @@ export default function Home() {
               <Image src={arrow_out} alt="" className="fill-white" />
             </button>
           </div>
-          <div className="flex flex-col h-96 w-72 bg-indigo-500 shadow-lg shadow-indigo-500/80 p-5 justify-between text-5xl font-extrabold rounded-3xl">
-            <h3 className="">01</h3>
+          <div className="flex flex-col h-96 w-72 bg-purple-500 p-7 justify-between text-5xl font-medium rounded-3xl">
+            <h3 className="">02</h3>
             <h3 className="">
-              WEB3 <br />
+              NFT <br />
               Services
             </h3>
             <button className="flex flex-row justify-between items-center w-full h-10 px-3 border rounded-xl">
@@ -50,10 +62,10 @@ export default function Home() {
               <Image src={arrow_out} alt="" className="fill-white" />
             </button>
           </div>
-          <div className="flex flex-col h-96 w-72 bg-indigo-500 shadow-lg shadow-indigo-500/80 p-5 justify-between text-5xl font-extrabold rounded-3xl">
-            <h3 className="">01</h3>
+          <div className="flex flex-col h-96 w-72 bg-pink-500 p-7 justify-between text-5xl font-medium rounded-3xl">
+            <h3 className="">03</h3>
             <h3 className="">
-              WEB3 <br />
+              Defi <br />
               Services
             </h3>
             <button className="flex flex-row justify-between items-center w-full h-10 px-3 border rounded-xl">
