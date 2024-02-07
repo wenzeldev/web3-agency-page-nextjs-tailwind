@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center bg-gray-950 overflow-hidden">
       <Navbar />
-      <div className="flex flex-col items-center justify-center w-1080 h-screen text-white font-black text-9xl">
+      <div className="flex flex-col items-center justify-center w-1080 h-screen text-white font-black text-9xl ">
         <div className="w-1080 h-screen flex flex-col items-left justify-center absolute">
           <div className="rounded-full w-600 h-96 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur-3xl z-0 opacity-75 rotate-45"></div>
         </div>
@@ -24,59 +24,78 @@ export default function Home() {
         </h2>
       </div>
 
-      <div className="flex flex-col items-center justify-center w-lvw h-32 ">
-        <div className="flex flex-col items-center justify-center w-lvw h-12 bg-transparent rotate-2 border-2">
-          <h2 className="text-white">
-            BLOCKCHAIN NETWORK SECURED | BLOCKCHAIN NETWORK SECURED | BLOCKCHAIN
-            NETWORK SECURED | BLOCKCHAIN NETWORK SECURED | BLOCKCHAIN NETWORK
-            SECURED | BLOCKCHAIN NETWORK SECURED |{" "}
-          </h2>
-        </div>
-      </div>
-
-      <div className="flex flex-col items-left justify-center w-1080 h-screen gap-10 text-white">
+      <div className="flex flex-col items-left justify-center w-1080 h-screen gap-10 text-white ">
         <h2 className="left w-1080 font-medium text-5xl">
           Our featured services
         </h2>
 
         <div className="flex flex-row justify-between w-1080">
-          <div className="flex flex-col h-96 w-72 bg-indigo-500 p-7 justify-between text-5xl font-medium rounded-3xl">
-            <h3 className="">01</h3>
-            <h3 className="">
-              WEB3 <br />
-              Services
-            </h3>
-            <button className="flex flex-row justify-between items-center w-full h-10 px-3 border rounded-xl">
-              <span className="text-base font-normal">Learn more</span>
-              <Image src={arrow_out} alt="" className="fill-white" />
-            </button>
+          <div className="flex justify-center items-center">
+            <div className="bg-indigo-500 h-96 w-72 blur-3xl z-10 absolute"></div>
+            <div className="flex flex-col h-96 w-72 bg-indigo-500 p-7 justify-between text-5xl font-medium rounded-3xl z-20">
+              <h3 className="">01</h3>
+              <h3 className="">
+                WEB3 <br />
+                Services
+              </h3>
+              <button className="flex flex-row justify-between items-center w-full h-10 px-3 border rounded-xl">
+                <span className="text-base font-normal">Learn more</span>
+                <Image src={arrow_out} alt="" className="fill-white" />
+              </button>
+            </div>
           </div>
-          <div className="flex flex-col h-96 w-72 bg-purple-500 p-7 justify-between text-5xl font-medium rounded-3xl">
-            <h3 className="">02</h3>
-            <h3 className="">
-              NFT <br />
-              Services
-            </h3>
-            <button className="flex flex-row justify-between items-center w-full h-10 px-3 border rounded-xl">
-              <span className="text-base font-normal">Learn more</span>
-              <Image src={arrow_out} alt="" className="fill-white" />
-            </button>
+
+          <div className="flex justify-center items-center">
+            <div className="bg-purple-500 h-96 w-72 blur-3xl z-10 absolute"></div>
+            <div className="flex flex-col h-96 w-72 bg-purple-500 p-7 justify-between text-5xl font-medium rounded-3xl z-20">
+              <h3 className="">02</h3>
+              <h3 className="">
+                NFT <br />
+                Services
+              </h3>
+              <button className="flex flex-row justify-between items-center w-full h-10 px-3 border rounded-xl">
+                <span className="text-base font-normal">Learn more</span>
+                <Image src={arrow_out} alt="" className="fill-white" />
+              </button>
+            </div>
           </div>
-          <div className="flex flex-col h-96 w-72 bg-pink-500 p-7 justify-between text-5xl font-medium rounded-3xl">
-            <h3 className="">03</h3>
-            <h3 className="">
-              Defi <br />
-              Services
-            </h3>
-            <button className="flex flex-row justify-between items-center w-full h-10 px-3 border rounded-xl">
-              <span className="text-base font-normal">Learn more</span>
-              <Image src={arrow_out} alt="" className="fill-white" />
-            </button>
+
+          <div className="flex justify-center items-center">
+            <div className="bg-pink-500 h-96 w-72 blur-3xl z-10 absolute"></div>
+            <div className="flex flex-col h-96 w-72 bg-pink-500 p-7 justify-between text-5xl font-medium rounded-3xl z-20">
+              <h3 className="">03</h3>
+              <h3 className="">
+                Defi <br />
+                Services
+              </h3>
+              <button className="flex flex-row justify-between items-center w-full h-10 px-3 border rounded-xl">
+                <span className="text-base font-normal">Learn more</span>
+                <Image src={arrow_out} alt="" className="fill-white" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="flex items-center justify-center w-1080 h-screen">
+      <div className="flex items-center justify-left w-1080 h-screen text-white ">
+        <div className="w-2/3 z-20">
+          <h2 className="font-medium text-5xl">About NoTse</h2>
+          <p className="py-5 leading-7">
+            Welcome to NoTse, your gateway to the future of the web. We're a
+            cutting-edge Web3 agency, merging creativity with blockchain
+            innovation to craft immersive digital experiences. From NFTs to
+            DeFi, we're your partners in navigating the decentralized landscape.
+            Join us as we redefine the digital world, one block at a time.
+          </p>
+          <div className="flex flex-row gap-5">
+            <button className="bg-white py-2 px-4 rounded-full text-black font-medium">Get to know us</button>
+            <button className="bg-white py-2 px-4 rounded-full text-black font-medium">We're hiring</button>
+          </div>
+        </div>
+        <div className="absolute w-1080 h-96 rounded-full bg-gradient-to-r p-1 from-black via-pink-900 to-pink-500 blur-3xl z-0"></div>
+      </div>
+
+      <div className="flex items-center justify-center w-1080 h-screen ">
         <div className="w-4/5 h-1/4 rounded-3xl bg-gradient-to-r p-1 from-indigo-500 via-purple-500 to-pink-500">
           <div className="flex flex-row justify-between items-center w-full h-full rounded-3xl bg-black p-5">
             <div className="flex flex-col w-4/5 text-white">
@@ -86,8 +105,8 @@ export default function Home() {
                 containing client case studies, and service details
               </p>
             </div>
-            <button className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full p-7">
-              <Image src={arrow_out} alt="" className="w-8 h-8" />
+            <button className="hover:rotate-45 transition-all bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full p-7">
+              <Image src={arrow_out} alt="" className=" w-8 h-8" />
             </button>
           </div>
         </div>
