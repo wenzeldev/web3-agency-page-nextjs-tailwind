@@ -10,7 +10,7 @@ import tiktok_icon from "/public/tiktok_icon.svg";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center bg-gray-950 overflow-hidden w-fit h-fit">
+    <div className="flex flex-col items-center bg-gray-950 overflow-hidden">
       <Navbar />
       <div className="flex flex-col items-center justify-center w-screen lg:w-1080 h-screen text-white font-black lg:text-9xl text-5xl">
         <div className="w-full lg:w-1080 h-screen flex flex-col items-left justify-center absolute">
