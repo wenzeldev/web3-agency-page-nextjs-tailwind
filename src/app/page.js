@@ -102,17 +102,17 @@ export default function Home() {
         <div className="absolute w-56 lg:w-1080 h-72 rounded-full bg-gradient-to-r p-1 from-pink-900 to-pink-500 blur-3xl z-0"></div>
       </div>
 
-      <div className="flex items-center justify-center w-full lg:w-1080 h-screen ">
-        <div className="w-4/5 h-1/4 rounded-3xl bg-gradient-to-r p-1 from-indigo-500 via-purple-500 to-pink-500">
-          <div className="flex flex-row justify-between items-center w-full h-full rounded-3xl bg-black p-5">
-            <div className="flex flex-col w-4/5 text-white">
-              <h3 className="text-6xl font-normal pb-5">Let's get started!</h3>
+      <div className="flex items-center justify-center w-full lg:w-1080 h-fit lg:h-screen ">
+        <div className="w-72 h-fit lg:w-4/5 lg:h-1/4 rounded-3xl bg-gradient-to-r p-1 from-indigo-500 via-purple-500 to-pink-500">
+          <div className="flex lg:flex-row flex-col justify-between items-left w-full h-full rounded-3xl bg-black p-5">
+            <div className="flex flex-col w-full lg:w-4/5 text-white pb-5">
+              <h3 className="text-5xl lg:text-6xl font-normal pb-5">Let's get started!</h3>
               <p>
                 Download our full Engagement Marketing Services Brochure,
                 containing client case studies, and service details
               </p>
             </div>
-            <button className="hover:rotate-45 transition-all bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full p-7">
+            <button className="hover:rotate-45 transition-all bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full w-fit h-fit p-7">
               <Image src={arrow_out} alt="" className=" w-8 h-8" />
             </button>
           </div>
