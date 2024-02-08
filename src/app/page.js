@@ -112,51 +112,51 @@ export default function Home() {
                 containing client case studies, and service details
               </p>
             </div>
-            <button className="hover:rotate-45 transition-all bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full w-fit h-fit p-7">
+            <button className="flex items-center justify-center hover:rotate-45 transition-all bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full w-full h-fit p-7">
               <Image src={arrow_out} alt="" className=" w-8 h-8" />
             </button>
           </div>
         </div>
       </div>
 
-      <div className="list-none flex flex-col items-center justify-center w-full lg:w-1080 h-fit py-10 text-white">
-        <div className="flex flex-row items-center justify-between w-full p-10">
+      <div className="list-none flex flex-col items-center justify-center w-full lg:w-1080 h-fit py-5 lg:py-10 text-white">
+        <div className="flex flex-row items-center justify-between w-full p-5 lg:p-10">
           <h2 className="text-3xl">NoTse</h2>
-          <div className="flex flex-row items-start justify-center gap-10">
-            <div className="text-sm leading-7">
+          <div className="flex flex-row items-start justify-center gap-5 lg:gap-10">
+            <div className="text-sm leading-7 text-right">
               <li>Home</li>
               <li>Services</li>
               <li>About</li>
               <li>Clients</li>
               <li>Get started</li>
             </div>
-            <div className="flex flex-row items-center justify-center gap-10">
+            <div className="lg:flex flex-col lg:flex-row items-center justify-between lg:justify-center h-full w-fit lg:gap-10 hidden">
               <li>
                 <Image
-                  className="w-6"
+                  className="w-6 h-6"
                   alt="Instagram Icon"
                   src={instagram_icon}
                 />
               </li>
               <li>
                 <Image
-                  className="w-6"
+                  className="w-6 h-6"
                   alt="linkedin_icon"
                   src={linkedin_icon}
                 />
               </li>
               <li>
-                <Image className="w-6" alt="tiktok_icon" src={tiktok_icon} />
+                <Image className="w-6 h-6" alt="tiktok_icon" src={tiktok_icon} />
               </li>
             </div>
           </div>
         </div>
 
-        <div className="border-t w-full p-10 flex flex-row items-center justify-between text-xs">
+        <div className="border-t w-full p-3 pt-5 lg:p-10 flex flex-row items-center justify-between text-xs">
           <Link href={""}>
             <p>©2024 made by Wenzel Natebus</p>
           </Link>
-          <div className="flex flex-row gap-5">
+          <div className="flex lg:flex-row flex-col gap-5 text-right">
             <li>Privacy Policy</li>
             <li>Terms of Service</li>
             <li>Cookies Settings</li>
