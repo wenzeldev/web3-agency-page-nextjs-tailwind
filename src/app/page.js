@@ -10,11 +10,11 @@ import tiktok_icon from "/public/tiktok_icon.svg";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center bg-gray-950 overflow-hidden">
+    <div className="flex flex-col items-center bg-gray-950 overflow-hidden w-fit h-fit">
       <Navbar />
-      <div className="flex flex-col items-center justify-center w-1080 h-screen text-white font-black text-9xl ">
-        <div className="w-1080 h-screen flex flex-col items-left justify-center absolute">
-          <div className="rounded-full w-600 h-96 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur-3xl z-0 opacity-75 rotate-45"></div>
+      <div className="flex flex-col items-center justify-center w-screen lg:w-1080 h-screen text-white font-black lg:text-9xl text-5xl">
+        <div className="w-full lg:w-1080 h-screen flex flex-col items-left justify-center absolute">
+          <div className="rounded-full w-full lg:w-600 h-96 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur-3xl z-0 opacity-75 rotate-45"></div>
         </div>
 
         <h1 className="text-left w-full z-10">CRYPTO</h1>
@@ -24,12 +24,12 @@ export default function Home() {
         </h2>
       </div>
 
-      <div className="flex flex-col items-left justify-center w-1080 h-screen gap-10 text-white ">
-        <h2 className="left w-1080 font-medium text-5xl">
+      <div className="flex flex-col items-left justify-center w-full lg:w-1080 h-screen gap-10 text-white ">
+        <h2 className="left w-full lg:w-1080 font-medium text-5xl">
           Our featured services
         </h2>
 
-        <div className="flex flex-row justify-between w-1080">
+        <div className="flex lg:flex-row flex-col justify-between w-full lg:w-1080">
           <div className="flex justify-center items-center">
             <div className="bg-indigo-500 h-96 w-72 blur-3xl z-10 absolute"></div>
             <div className="flex flex-col h-96 w-72 bg-indigo-500 p-7 justify-between text-5xl font-medium rounded-3xl z-20">
@@ -77,7 +77,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex items-center justify-left w-1080 h-screen text-white ">
+      <div className="flex items-center justify-left w-full lg:w-1080 h-screen text-white ">
         <div className="w-2/3 z-20">
           <h2 className="font-medium text-5xl">About NoTse</h2>
           <p className="py-5 leading-7">
@@ -92,10 +92,10 @@ export default function Home() {
             <button className="bg-white py-2 px-4 rounded-full text-black font-medium">We're hiring</button>
           </div>
         </div>
-        <div className="absolute w-1080 h-96 rounded-full bg-gradient-to-r p-1 from-black via-pink-900 to-pink-500 blur-3xl z-0"></div>
+        <div className="absolute w-96 lg:w-1080 h-96 rounded-full bg-gradient-to-r p-1 from-black via-pink-900 to-pink-500 blur-3xl z-0"></div>
       </div>
 
-      <div className="flex items-center justify-center w-1080 h-screen ">
+      <div className="flex items-center justify-center w-full lg:w-1080 h-screen ">
         <div className="w-4/5 h-1/4 rounded-3xl bg-gradient-to-r p-1 from-indigo-500 via-purple-500 to-pink-500">
           <div className="flex flex-row justify-between items-center w-full h-full rounded-3xl bg-black p-5">
             <div className="flex flex-col w-4/5 text-white">
@@ -112,7 +112,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="list-none flex flex-col items-center justify-center w-1080 h-fit py-10 text-white">
+      <div className="list-none flex flex-col items-center justify-center w-full lg:w-1080 h-fit py-10 text-white">
         <div className="flex flex-row items-center justify-between w-full p-10">
           <h2 className="text-3xl">NoTse</h2>
           <div className="flex flex-row items-start justify-center gap-10">
