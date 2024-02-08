@@ -80,9 +80,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex items-center lg:justify-left justify-center w-72 lg:w-1080 h-screen text-white ">
+      <div className="flex items-center lg:justify-left justify-start w-72 lg:w-1080 h-screen text-white ">
         <div className="w-full lg:w-2/3 z-20">
-          <h2 className="font-medium text-4xl">About NoTse</h2>
+          <h2 className="font-medium lg:text-5xl text-4xl">About NoTse</h2>
           <p className="py-5 leading-7">
             Welcome to NoTse, your gateway to the future of the web. We're a
             cutting-edge Web3 agency, merging creativity with blockchain
@@ -99,12 +99,12 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="absolute w-56 lg:w-1080 h-72 rounded-full bg-gradient-to-r p-1 from-pink-900 to-pink-500 blur-3xl z-0"></div>
+        <div className="absolute w-56 lg:w-1080 lg:h-96 h-72 rounded-full bg-gradient-to-r p-1 from-black to-pink-500 blur-3xl z-0"></div>
       </div>
 
       <div className="flex items-center justify-center w-full lg:w-1080 h-fit lg:h-screen ">
         <div className="w-72 h-fit lg:w-4/5 lg:h-1/4 rounded-3xl bg-gradient-to-r p-1 from-indigo-500 via-purple-500 to-pink-500">
-          <div className="flex lg:flex-row flex-col justify-between items-left w-full h-full rounded-3xl bg-black p-5">
+          <div className="flex lg:flex-row flex-col justify-between items-left lg:items-center w-full h-full rounded-3xl bg-black p-5">
             <div className="flex flex-col w-full lg:w-4/5 text-white pb-5">
               <h3 className="text-5xl lg:text-6xl font-normal pb-5">Let's get started!</h3>
               <p>
@@ -112,7 +112,7 @@ export default function Home() {
                 containing client case studies, and service details
               </p>
             </div>
-            <button className="flex items-center justify-center hover:rotate-45 transition-all bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full w-full h-fit p-7">
+            <button className="flex items-center justify-center hover:rotate-45 transition-all bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full w-full lg:w-fit h-fit p-7">
               <Image src={arrow_out} alt="" className=" w-8 h-8" />
             </button>
           </div>
