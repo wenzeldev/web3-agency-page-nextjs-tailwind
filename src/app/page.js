@@ -14,7 +14,9 @@ export default function Home() {
       <Navbar />
       <div className="flex flex-col items-center justify-center w-screen lg:w-1080 h-screen text-white font-black lg:text-9xl text-5xl">
         <div className="w-full lg:w-1080 h-screen flex flex-col items-left justify-center absolute">
-          <div className="rounded-full w-full lg:w-600 h-96 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur-3xl z-0 opacity-75 rotate-45"></div>
+
+          <div className="rounded-full w-18 lg:w-600 h-18 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur-3xl z-0 opacity-75 rotate-45"></div>
+
         </div>
 
         <h1 className="text-left w-full z-10">CRYPTO</h1>
@@ -88,11 +90,15 @@ export default function Home() {
             Join us as we redefine the digital world, one block at a time.
           </p>
           <div className="flex flex-row gap-5">
-            <button className="bg-white py-2 px-4 rounded-full text-black font-medium">Get to know us</button>
-            <button className="bg-white py-2 px-4 rounded-full text-black font-medium">We're hiring</button>
+            <button className="bg-white py-2 px-4 rounded-full text-black font-medium">
+              Get to know us
+            </button>
+            <button className="bg-white py-2 px-4 rounded-full text-black font-medium">
+              We're hiring
+            </button>
           </div>
         </div>
-        <div className="absolute w-96 lg:w-1080 h-96 rounded-full bg-gradient-to-r p-1 from-black via-pink-900 to-pink-500 blur-3xl z-0"></div>
+        <div className="absolute w-20 lg:w-1080 h-96 rounded-full bg-gradient-to-r p-1 from-black via-pink-900 to-pink-500 blur-3xl z-0"></div>
       </div>
 
       <div className="flex items-center justify-center w-full lg:w-1080 h-screen ">
