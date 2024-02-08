@@ -12,21 +12,22 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center bg-gray-950 overflow-hidden">
       <Navbar />
-      <div className="flex flex-col items-center justify-center w-screen lg:w-1080 h-screen text-white font-black lg:text-9xl text-5xl">
-        <div className="w-full lg:w-1080 h-screen flex flex-col items-left justify-center absolute">
 
-          <div className="rounded-full w-18 lg:w-600 h-18 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur-3xl z-0 opacity-75 rotate-45"></div>
+      <div className="flex flex-col items-center justify-center w-screen lg:w-1080 h-screen text-white font-black lg:text-9xl text-7xl gap-5 px-1 lg:px-0 lg:gap-0">
+        <div className="w-full lg:w-1080 h-screen flex flex-col items-center justify-center absolute">
+
+          <div className="rounded-full w-2/3 lg:w-600 lg:h-96 h-80 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur-3xl z-0 opacity-75 lg:rotate-45"></div>
 
         </div>
 
-        <h1 className="text-left w-full z-10">CRYPTO</h1>
+        <h1 className="text-left text-clip w-full z-10">CRYPTO</h1>
         <h2 className="z-10">WEB-3</h2>
         <h2 className="z-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block bg-clip-text text-right text-transparent italic w-full px-6">
           AGENCY
         </h2>
       </div>
 
-      <div className="flex flex-col items-left justify-center w-full lg:w-1080 h-screen gap-10 text-white ">
+      <div className="flex flex-col items-left justify-center w-full lg:w-1080 lg:h-screen h-fit gap-10 text-white ">
         <h2 className="left w-full lg:w-1080 font-medium text-5xl">
           Our featured services
         </h2>
