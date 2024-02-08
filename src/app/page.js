@@ -27,15 +27,15 @@ export default function Home() {
         </h2>
       </div>
 
-      <div className="flex flex-col items-left justify-center w-full lg:w-1080 lg:h-screen h-fit gap-10 text-white ">
-        <h2 className="left w-full lg:w-1080 font-medium text-5xl">
+      <div className="flex flex-col items-left justify-center w-full lg:w-1080 lg:h-screen h-fit gap-10 text-white px-3 lg:px-0">
+        <h2 className="left w-full lg:w-1080 font-medium text-3xl lg:text-5xl">
           Our featured services
         </h2>
 
-        <div className="flex lg:flex-row flex-col justify-between w-full lg:w-1080">
+        <div className="flex lg:flex-row flex-col justify-between w-full lg:w-1080 gap-5 lg:gap-0">
           <div className="flex justify-center items-center">
-            <div className="bg-indigo-500 h-96 w-72 blur-3xl z-10 absolute"></div>
-            <div className="flex flex-col h-96 w-72 bg-indigo-500 p-7 justify-between text-5xl font-medium rounded-3xl z-20">
+            <div className="bg-indigo-500 h-64 lg:h-96 w-72 blur-2xl z-10 absolute"></div>
+            <div className="flex flex-col h-64 lg:h-96 w-72 bg-indigo-500 p-7 justify-between text-4xl lg:text-5xl font-medium rounded-3xl z-20">
               <h3 className="">01</h3>
               <h3 className="">
                 WEB3 <br />
@@ -49,8 +49,8 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center items-center">
-            <div className="bg-purple-500 h-96 w-72 blur-3xl z-10 absolute"></div>
-            <div className="flex flex-col h-96 w-72 bg-purple-500 p-7 justify-between text-5xl font-medium rounded-3xl z-20">
+            <div className="bg-purple-500 h-64 lg:h-96 w-72 blur-2xl z-10 absolute"></div>
+            <div className="flex flex-col h-64 lg:h-96 w-72 bg-purple-500 p-7 justify-between text-4xl lg:text-5xl font-medium rounded-3xl z-20">
               <h3 className="">02</h3>
               <h3 className="">
                 NFT <br />
@@ -64,8 +64,8 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center items-center">
-            <div className="bg-pink-500 h-96 w-72 blur-3xl z-10 absolute"></div>
-            <div className="flex flex-col h-96 w-72 bg-pink-500 p-7 justify-between text-5xl font-medium rounded-3xl z-20">
+            <div className="bg-pink-500 h-64 lg:h-96 w-72 blur-2xl z-10 absolute"></div>
+            <div className="flex flex-col h-64 lg:h-96 w-72 bg-pink-500 p-7 justify-between text-4xl lg:text-5xl font-medium rounded-3xl z-20">
               <h3 className="">03</h3>
               <h3 className="">
                 Defi <br />
