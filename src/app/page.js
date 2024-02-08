@@ -27,8 +27,8 @@ export default function Home() {
         </h2>
       </div>
 
-      <div className="flex flex-col items-left justify-center w-full lg:w-1080 lg:h-screen h-fit gap-10 text-white px-3 lg:px-0">
-        <h2 className="left w-full lg:w-1080 font-medium text-3xl lg:text-5xl">
+      <div className="flex flex-col lg:items-left items-center justify-center w-full lg:w-1080 lg:h-screen h-fit gap-10 text-white px-3 lg:px-0">
+        <h2 className="left w-72 lg:w-1080 font-medium text-4xl lg:text-5xl">
           Our featured services
         </h2>
 
@@ -80,9 +80,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex items-center justify-left w-full lg:w-1080 h-screen text-white ">
-        <div className="w-2/3 z-20">
-          <h2 className="font-medium text-5xl">About NoTse</h2>
+      <div className="flex items-center lg:justify-left justify-center w-72 lg:w-1080 h-screen text-white ">
+        <div className="w-full lg:w-2/3 z-20">
+          <h2 className="font-medium text-4xl">About NoTse</h2>
           <p className="py-5 leading-7">
             Welcome to NoTse, your gateway to the future of the web. We're a
             cutting-edge Web3 agency, merging creativity with blockchain
@@ -90,8 +90,8 @@ export default function Home() {
             DeFi, we're your partners in navigating the decentralized landscape.
             Join us as we redefine the digital world, one block at a time.
           </p>
-          <div className="flex flex-row gap-5">
-            <button className="bg-white py-2 px-4 rounded-full text-black font-medium">
+          <div className="flex flex-row gap-2 lg:gap-5">
+            <button className="bg-white py-1 lg:py-2 px-2 lg:px-4 rounded-full text-black font-medium">
               Get to know us
             </button>
             <button className="bg-white py-2 px-4 rounded-full text-black font-medium">
@@ -99,7 +99,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="absolute w-20 lg:w-1080 h-96 rounded-full bg-gradient-to-r p-1 from-black via-pink-900 to-pink-500 blur-3xl z-0"></div>
+        <div className="absolute w-56 lg:w-1080 h-72 rounded-full bg-gradient-to-r p-1 from-pink-900 to-pink-500 blur-3xl z-0"></div>
       </div>
 
       <div className="flex items-center justify-center w-full lg:w-1080 h-screen ">
