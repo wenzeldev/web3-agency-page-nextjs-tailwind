@@ -10,14 +10,14 @@ import tiktok_icon from "/public/tiktok_icon.svg";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center bg-gray-950 overflow-hidden">
+    <div className="flex flex-col items-center bg-gray-950 overflow-hidden bg-grid-white/[0.2] relative ">
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+
       <Navbar />
 
       <div className="flex flex-col items-center justify-center w-screen lg:w-1080 h-screen text-white font-black lg:text-9xl text-7xl gap-5 px-1 lg:px-0 lg:gap-0">
         <div className="w-full lg:w-1080 h-screen flex flex-col items-center justify-center absolute">
-
           <div className="rounded-full w-2/3 lg:w-600 lg:h-96 h-80 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur-3xl z-0 opacity-75 lg:rotate-45"></div>
-
         </div>
 
         <h1 className="text-left text-clip w-full z-10">CRYPTO</h1>
@@ -106,7 +106,9 @@ export default function Home() {
         <div className="w-72 h-fit lg:w-4/5 lg:h-1/4 rounded-3xl bg-gradient-to-r p-1 from-indigo-500 via-purple-500 to-pink-500">
           <div className="flex lg:flex-row flex-col justify-between items-left lg:items-center w-full h-full rounded-3xl bg-black p-5">
             <div className="flex flex-col w-full lg:w-4/5 text-white pb-5">
-              <h3 className="text-5xl lg:text-6xl font-normal pb-5">Let's get started!</h3>
+              <h3 className="text-5xl lg:text-6xl font-normal pb-5">
+                Let's get started!
+              </h3>
               <p>
                 Download our full Engagement Marketing Services Brochure,
                 containing client case studies, and service details
@@ -146,7 +148,11 @@ export default function Home() {
                 />
               </li>
               <li>
-                <Image className="w-6 h-6" alt="tiktok_icon" src={tiktok_icon} />
+                <Image
+                  className="w-6 h-6"
+                  alt="tiktok_icon"
+                  src={tiktok_icon}
+                />
               </li>
             </div>
           </div>
